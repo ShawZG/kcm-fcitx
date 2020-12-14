@@ -52,8 +52,8 @@ namespace Fcitx
 
 AddonSelector::Private::Private(AddonSelector* parent) :
     QObject(parent),
-    listView(0),
-    categoryDrawer(0),
+    listView(nullptr),
+    categoryDrawer(nullptr),
     parent(parent)
 {
 }
